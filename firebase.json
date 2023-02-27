@@ -1,0 +1,11 @@
+{
+  "hosting": {
+    "site": "bijroel",
+    "public": "public",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}
