@@ -1,0 +1,101 @@
+<div class='app-container'>
+  <div class='center'>
+    <!--  Background Image-->
+    <img class='background-image' alt='BijRoel' src='./assets/img/bij-roel-achtergrond.jpeg'>
+
+    <!--  circle 1-->
+    <div class='selection-container'>
+      <svg class='menu-circle general-circle'>
+        <circle
+          [attr.r]='110'
+          [attr.fill]="'#281E08'"
+          [attr.cx]='110'
+          [attr.cy]='110'
+        >
+        </circle>
+        <foreignObject [attr.x]='0' [attr.y]='0' [attr.height]='220' [attr.width]='220'>
+          <div class='text-container'>
+            <span class='circle-text'>Hallo?</span>
+          </div>
+        </foreignObject>
+      </svg>
+      <!--  circle 2-->
+      <svg class='koffie-circle general-circle'>
+        <circle
+          [attr.r]='110'
+          [attr.fill]="'#281E08'"
+          [attr.cx]='110'
+          [attr.cy]='110'
+        >
+        </circle>
+        <foreignObject [attr.x]='0' [attr.y]='0' [attr.height]='220' [attr.width]='220'>
+          <div class='text-container'>
+            <span class='circle-text'>KOFFIE</span>
+          </div>
+        </foreignObject>
+      </svg>
+
+      <!--  circle 3-->
+      <svg class='kunst-circle general-circle'>
+        <circle
+          [attr.r]='110'
+          [attr.fill]="'#281E08'"
+          [attr.cx]='110'
+          [attr.cy]='110'
+        >
+        </circle>
+        <foreignObject [attr.x]='0' [attr.y]='0' [attr.height]='220' [attr.width]='220'>
+          <div class='text-container'>
+            <span class='circle-text'>KUNST</span>
+          </div>
+        </foreignObject>
+      </svg>
+    </div>
+
+    <!--  Card -->
+    <mat-card class='information-card'>
+      <mat-card-content>
+        <div style='float:left; width: 170px; height: 170px; background-color: green'></div>
+        <div>
+          <div>
+            <mat-icon>location_on</mat-icon>
+            <span class='card-text-header'>Oude kijk in 't Jatstraat 27</span>
+          </div>
+          <div>
+            <mat-icon>access_time</mat-icon>
+            <span class='card-text-header'>Openingstijden: </span>
+          </div>
+          <div>
+            <div>
+              <p>Ma: 07:30 - 17:00</p>
+              <p>Di: 07:30 - 17:00</p>
+              <p>Wo: 07:30 - 17:00</p>
+              <p>Do: 07:30 - 17:00</p>
+            </div>
+            <div>
+              <p>Vr: 09:00 - 17:00</p>
+              <p>Za: 10:30 - 17:00</p>
+              <p>Zo: 13:00 - 17:00</p>
+            </div>
+          </div>
+        </div>
+      </mat-card-content>
+    </mat-card>
+
+    <!--  instagram-->
+    <div class='social-media-container' >
+      <button mat-mini-fab color='#FFFFFF' onclick="location.href='https://www.instagram.com/bijroel/'">
+        <mat-icon><img alt='Instagram' src='./assets/icons/instagram.svg'></mat-icon>
+      </button>
+      <!--  facebook-->
+      <button mat-mini-fab color='#FFFFFF'
+              onclick="location.href='https://www.facebook.com/profile.php?id=100085588395054'">
+        <mat-icon><img alt='Facebook' src='./assets/icons/facebook.svg'></mat-icon>
+      </button>
+      <!--  linkedIn-->
+      <button mat-mini-fab color='#FFFFFF' onclick="location.href='https://nl.linkedin.com/in/roel-hooghiem-a4610495'">
+        <mat-icon><img alt='Linkedin' src='./assets/icons/linkedin.svg'></mat-icon>
+      </button>
+    </div>
+  </div>
+</div>
